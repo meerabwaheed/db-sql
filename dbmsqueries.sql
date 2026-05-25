@@ -4,5 +4,7 @@ CREATE TABLE students(
    id INT,
    name VARCHAR(20),
    age INT,
-   salary DOUBLE
+   salary DOUBLE,
+   cgpa FLOAT
 );
+
