@@ -7,4 +7,5 @@ CREATE TABLE students(
    salary DOUBLE,
    cgpa FLOAT
 );
+INSERT INTO students VALUES(1,'meerab',19,72000,3.75);
 
