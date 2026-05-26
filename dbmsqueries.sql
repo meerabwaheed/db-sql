@@ -20,5 +20,6 @@ UPDATE students SET Age = 11 WHERE ID = 2;
 
 SELECT * FROM students ORDER BY  AGE ASC;
 SELECT * FROM students ORDER BY AGE DESC;
+UPDATE students SET AGE =11 WHERE ID = 1;
 
 
