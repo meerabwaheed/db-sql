@@ -2,7 +2,7 @@ CREATE DATABASE college_db;
 USE college_db;
 CREATE TABLE students(
    id INT,
-   name VARCHAR(20),
+   name VARCHAR(10),
    age INT,
    salary DOUBLE,
    cgpa FLOAT
