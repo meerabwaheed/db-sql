@@ -24,4 +24,6 @@ UPDATE students SET AGE =11 WHERE ID = 1;
 
 DELETE FROM * WHERE ID = 1;
 
+CREATE DATABASE misrishah_db;
+
 
