@@ -14,7 +14,7 @@ INSERT INTO students VALUES(4,'hammad',23,52000);
 SELECT * From students;
 SELECT * FROM students WHERE age > 18;
 SET SQL_SAFE_UPDATES = 0;
-UPDATE students SET Age = 10 WHERE ID = 4;
+UPDATE students SET Age = 10 WHERE ID = 1;
 UPDATE students SET Age = 12 WHERE ID = 2;
 UPDATE students SET Age = 11 WHERE ID = 3;
 
