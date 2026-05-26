@@ -12,7 +12,7 @@ INSERT INTO students VALUES(2,'balach',18,2000);
 INSERT INTO students VALUES(3,'ryyan',16,2000);
 INSERT INTO students VALUES(4,'hammad',23,52000);
 SELECT * From students;
-SELECT * FROM students WHERE age > 8;
+SELECT * FROM students WHERE age > 18;
 SET SQL_SAFE_UPDATES = 0;
 UPDATE students SET Age = 10 WHERE ID = 4;
 UPDATE students SET Age = 12 WHERE ID = 2;
