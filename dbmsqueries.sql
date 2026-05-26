@@ -18,4 +18,6 @@ UPDATE students SET Age = 10 WHERE ID = 1;
 UPDATE students SET Age = 12 WHERE ID = 3;
 UPDATE students SET Age = 11 WHERE ID = 2;
 
+SELECT * FROM students ORDER BY  AGE ASC;
+
 
