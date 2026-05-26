@@ -38,7 +38,7 @@ INSERT INTO homies VALUES (3,'habiba',250000,'lahore');
 INSERT INTO homies VALUES (4,'salyha',230000000000,'lahore');
 INSERT INTO homies VALUES (5,'saira anti',230040,'lahore');
 INSERT INTO homies VALUES (6,'choti maama',2300700,'lahore');
-INSERT INTO homies VALUES (7,'anti lala',2305000,'lahore');
+-- INSERT INTO homies VALUES (7,'anti lala',2305000,'lahore');
 -- INSERT INTO homies VALUES (8,'sara',264300,'lahore');
 -- INSERT INTO homies VALUES (9,'hareem',30000,'lahore');
 -- INSERT INTO homies VALUES (10,'adden',433000,'lahore');
