@@ -10,7 +10,7 @@ CREATE TABLE students(
 INSERT INTO students VALUES(1,'mirza ',22,72000,3.75);
 INSERT INTO students VALUES(2,'balach',18,2000);
 INSERT INTO students VALUES(3,'ryyan',16,2000);
-INSERT INTO students VALUES(4,'hammad',9,52000);
+INSERT INTO students VALUES(4,'hammad',23,52000);
 SELECT * From students;
 SELECT * FROM students WHERE age > 8;
 SET SQL_SAFE_UPDATES = 0;
