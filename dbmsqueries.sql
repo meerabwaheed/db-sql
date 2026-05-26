@@ -15,7 +15,7 @@ SELECT * From students;
 SELECT * FROM students WHERE age > 18;
 SET SQL_SAFE_UPDATES = 0;
 UPDATE students SET Age = 10 WHERE ID = 1;
-UPDATE students SET Age = 12 WHERE ID = 2;
+UPDATE students SET Age = 12 WHERE ID = 3;
 UPDATE students SET Age = 11 WHERE ID = 3;
 
 
