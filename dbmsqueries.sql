@@ -1,4 +1,4 @@
-CREATE DATABASE home_db;
+CREATE DATABASE college_db;
 USE home_db;
 CREATE TABLE students(
    id INT,
