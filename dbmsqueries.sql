@@ -8,7 +8,7 @@ CREATE TABLE students(
    cgpa FLOAT
 );
 INSERT INTO students VALUES(1,'mirza ',19,72000,3.75);
-INSERT INTO students VALUES(2,'aahil',12,2000);
+INSERT INTO students VALUES(2,'balach',12,2000);
 INSERT INTO students VALUES(3,'mahad',10,2000);
 INSERT INTO students VALUES(4,'faran',9,52000);
 SELECT * From students;
