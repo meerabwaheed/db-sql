@@ -1,5 +1,5 @@
 CREATE DATABASE college_db;
-USE home_db;
+USE college_db;
 CREATE TABLE students(
    id INT,
    name VARCHAR(20),
