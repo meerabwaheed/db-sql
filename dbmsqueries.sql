@@ -26,5 +26,10 @@ DELETE FROM * WHERE ID = 1;
 
 CREATE DATABASE misrishah_db;
 USE misrishah_db;
+CREATE TABLE homies(
+    rest_id INT PRIMARY KEY,
+    name VARCHAR(30),
+    salary DOUBLE
+);
 
 
