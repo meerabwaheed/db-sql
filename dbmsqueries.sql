@@ -29,7 +29,8 @@ USE misrishah_db;
 CREATE TABLE homies(
     rest_id INT PRIMARY KEY,
     name VARCHAR(30),
-    salary DOUBLE
+    salary DOUBLE,
+    city VARCHAR(20)
 );
 
 
