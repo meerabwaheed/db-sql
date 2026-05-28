@@ -62,5 +62,9 @@ Student(
     Age
 )
 
+Department(
+    DeptID PRIMARY KEY,
+    DeptName
+)
 
 
