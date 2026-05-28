@@ -32,7 +32,7 @@ CREATE TABLE homies(
     salary DOUBLE,
     city VARCHAR(20)
 );
--- INSERT INTO homies VALUES (1,'meerab',230000,'lahore');
+INSERT INTO homies VALUES (1,'meerab',230000,'lahore');
 -- INSERT INTO homies VALUES (2,'ayesha',210000,'lahore');
 -- INSERT INTO homies VALUES (3,'habiba',250000,'lahore');
 -- INSERT INTO homies VALUES (4,'salyha',230000000000,'lahore');
