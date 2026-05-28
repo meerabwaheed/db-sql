@@ -75,4 +75,10 @@ Course(
     CourseID PRIMARY KEY,
     CourseName
 )
-
+Enrollment(
+    StudentID,
+    CourseID,
+    PRIMARY KEY(StudentID, CourseID),
+    FOREIGN KEY(StudentID),
+    FOREIGN KEY(CourseID)
+)
