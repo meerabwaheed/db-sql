@@ -45,5 +45,16 @@ INSERT INTO homies VALUES (10,'adden',433000,'lahore');
 INSERT INTO homies VALUES (11,'mera gudda',234450000,'lahore');
 INSERT INTO homies VALUES (12,'sultan',230555000,'lahore');
 
+Department(
+    DeptID PRIMARY KEY,
+    DeptName
+)
+
+Employee(
+    EmpID PRIMARY KEY,
+    Name,
+    DeptID FOREIGN KEY
+)
+
 
 
