@@ -71,5 +71,8 @@ Student(
     Name,
     DeptID FOREIGN KEY
 )
-
+Course(
+    CourseID PRIMARY KEY,
+    CourseName
+)
 
