@@ -50,11 +50,11 @@ Department(
     DeptName
 )
 
-Employee(
-    EmpID PRIMARY KEY,
-    Name,
-    DeptID FOREIGN KEY
-)
+-- Employee(
+--     EmpID PRIMARY KEY,
+--     Name,
+--     DeptID FOREIGN KEY
+-- )
 
 Student(
     StudentID PRIMARY KEY,
