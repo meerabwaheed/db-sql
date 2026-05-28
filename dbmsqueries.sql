@@ -66,5 +66,10 @@ Department(
     DeptID PRIMARY KEY,
     DeptName
 )
+Student(
+    StudentID PRIMARY KEY,
+    Name,
+    DeptID FOREIGN KEY
+)
 
 
