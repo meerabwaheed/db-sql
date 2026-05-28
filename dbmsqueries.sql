@@ -56,5 +56,11 @@ Employee(
     DeptID FOREIGN KEY
 )
 
+Student(
+    StudentID PRIMARY KEY,
+    Name,
+    Age
+)
+
 
 
