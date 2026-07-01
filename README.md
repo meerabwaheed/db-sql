@@ -164,6 +164,23 @@ A student can enroll in multiple courses, and each course can have multiple stud
 
 ---
 
+## Purpose
+
+This repository serves as my personal SQL learning journey and practice collection. It will continue to grow as I learn advanced SQL topics such as:
+
+* JOINs
+* Aggregate Functions
+* GROUP BY
+* HAVING
+* Subqueries
+* Views
+* Indexes
+* Stored Procedures
+* Triggers
+* Transactions
+* Database Optimization
+
+---
 
 
 
