@@ -182,6 +182,28 @@ This repository serves as my personal SQL learning journey and practice collecti
 
 ---
 
+-- Create a simple table
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    grade VARCHAR(10)
+);
 
+-- Insert some data
+INSERT INTO students (id, name, age, grade) VALUES
+(1, 'Ali', 20, 'A'),
+(2, 'Sara', 22, 'B'),
+(3, 'Zain', 21, 'A');
+
+-- Select students with grade 'A'
+SELECT name, age
+FROM students
+WHERE grade = 'A';
+
+-- Count students per grade
+SELECT grade, COUNT(*) AS total
+FROM students
+GROUP BY grade;
 
 
