@@ -212,3 +212,10 @@ ORDER BY Age ASC;
 SELECT *
 FROM Students
 ORDER BY Age DESC;
+CREATE TABLE Students
+(
+    StudentID INT,
+    Name VARCHAR(50),
+    Age INT,
+    Department VARCHAR(30)
+);
