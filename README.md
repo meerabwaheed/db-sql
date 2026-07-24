@@ -209,3 +209,6 @@ GROUP BY grade;
 SELECT *
 FROM Students
 ORDER BY Age ASC;
+SELECT *
+FROM Students
+ORDER BY Age DESC;
