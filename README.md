@@ -222,3 +222,8 @@ CREATE TABLE Students
 INSERT INTO Students
 VALUES
 (1, 'Ali', 20, 'Computer Science');
+INSERT INTO Students
+VALUES
+(2, 'Ahmed', 21, 'Software Engineering'),
+(3, 'Sara', 19, 'Computer Science'),
+(4, 'Ayesha', 22, 'Information Technology');
