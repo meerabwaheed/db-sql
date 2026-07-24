@@ -219,3 +219,6 @@ CREATE TABLE Students
     Age INT,
     Department VARCHAR(30)
 );
+INSERT INTO Students
+VALUES
+(1, 'Ali', 20, 'Computer Science');
