@@ -206,4 +206,6 @@ SELECT grade, COUNT(*) AS total
 FROM students
 GROUP BY grade;
 
-
+SELECT *
+FROM Students
+ORDER BY Age ASC;
