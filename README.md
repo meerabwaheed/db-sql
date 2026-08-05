@@ -227,3 +227,42 @@ VALUES
 (2, 'Ahmed', 21, 'Software Engineering'),
 (3, 'Sara', 19, 'Computer Science'),
 (4, 'Ayesha', 22, 'Information Technology');
+-- 1. Table banana
+CREATE TABLE students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    age INT,
+    marks INT
+);
+
+-- 2. Data insert karna
+INSERT INTO students (name, age, marks) VALUES ('Ali', 20, 85);
+INSERT INTO students (name, age, marks) VALUES ('Sara', 21, 92);
+INSERT INTO students (name, age, marks) VALUES ('Ahmed', 19, 78);
+INSERT INTO students (name, age, marks) VALUES ('Meerab', 22, 95);
+
+-- 3. Data update karna (misaal: Ahmed ke marks badalna)
+UPDATE students
+SET marks = 88
+WHERE name = 'Ahmed';
+
+-- 4. Data delete karna (misaal: ek student remove karna)
+DELETE FROM students
+WHERE name = 'Sara';
+
+-- 5. Sabhi data dekhna
+SELECT * FROM students;
+
+-- 6. Sabse zyada marks wala student dhoondna
+SELECT name, marks
+FROM students
+ORDER BY marks DESC
+LIMIT 1;
+
+-- 7. Marks ke hisaab se sort karna (highest se lowest)
+SELECT * FROM students
+ORDER BY marks DESC;
+
+-- 8. Sirf wo students jinke marks 80 se zyada hain
+SELECT * FROM students
+WHERE marks > 80;
