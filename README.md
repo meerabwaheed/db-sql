@@ -185,7 +185,7 @@ This repository serves as my personal SQL learning journey and practice collecti
 -- Create a simple table
 CREATE TABLE students (
     id INT PRIMARY KEY,
-    name VARCHAR(50),
+    name VARCHAR(30),
     age INT,
     grade VARCHAR(10)
 );
