@@ -193,7 +193,7 @@ CREATE TABLE students (
 -- Insert some data
 INSERT INTO students (id, name, age, grade) VALUES
 (1, 'Ali', 20, 'A'),
-(2, 'Sara', 22, 'B'),
+(2, 'Sara', 32, 'B'),
 (3, 'Zain', 21, 'A');
 
 -- Select students with grade 'A'
