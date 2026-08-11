@@ -260,9 +260,9 @@ ORDER BY marks DESC
 LIMIT 1;
 
 -- 7. Marks ke hisaab se sort karna (highest se lowest)
-SELECT * FROM students
+SELECT * FROM student
 ORDER BY marks DESC;
 
 -- 8. Sirf wo students jinke marks 90 se zyada hain
-SELECT * FROM students
+SELECT * FROM student
 WHERE marks > 90;
