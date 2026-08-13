@@ -59,7 +59,7 @@ This database stores sample employee-like information for practice.
 
 | Column  | Data Type         |
 | ------- | ----------------- |
-| rest_id | INT (Primary Key) |
+| restid | INT (Primary Key) |
 | name    | VARCHAR(30)       |
 | salary  | DOUBLE            |
 | city    | VARCHAR(20)       |
