@@ -239,7 +239,7 @@ CREATE TABLE students (
 INSERT INTO students (name, age, marks) VALUES ('hareem', 20, 85);
 INSERT INTO students (name, age, marks) VALUES ('Sara', 21, 92);
 INSERT INTO students (name, age, marks) VALUES ('Umar', 19, 78);
-INSERT INTO students (name, age, marks) VALUES ('Meerab', 22, 95);
+INSERT INTO students (name, age, marks) VALUES ('Meerab', 18, 95);
 
 -- 3. Data update karna (misaal: Ahmed ke marks badalna)
 UPDATE students
