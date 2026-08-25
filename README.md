@@ -230,7 +230,7 @@ VALUES
 -- 1. Table banana
 CREATE TABLE students (
     student_id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(50),
+    name VARCHAR(60),
     age INT,
     marks INT
 );
