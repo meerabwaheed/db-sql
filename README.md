@@ -5,7 +5,7 @@ This repository contains my SQL practice exercises while learning database desig
 ## 📚 Topics Covered
 
 * Creating databases
-* Creating tables
+* Creating Tables
 * Inserting records
 * Retrieving data using `SELECT`
 * Filtering records using `WHERE`
