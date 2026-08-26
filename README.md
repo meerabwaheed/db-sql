@@ -243,7 +243,7 @@ INSERT INTO students (name, age, marks) VALUES ('Meerab', 18, 95);
 
 -- 3. Data update karna (misaal: Ahmed ke marks badalna)
 UPDATE students
-SET marks = 88
+SET marks = 90;
 WHERE name = 'Ahmed';
 
 -- 4. Data delete karna (misaal: ek student remove karna)
