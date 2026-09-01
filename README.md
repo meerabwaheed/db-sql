@@ -62,7 +62,7 @@ This database stores sample employee-like information for practice.
 | restid | INT (Primary Key) |
 | name    | VARCHAR(30)       |
 | salary  | DOUBLE            |
-| city    | VARCHAR(20)       |
+| city    | VARCHAR(50)       |
 
 ### Operations Performed
 
