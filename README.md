@@ -248,7 +248,7 @@ WHERE name = 'Ahmed';
 
 -- 4. Data delete karna (misaal: ek student remove karna)
 DELETE FROM students
-WHERE name = 'Sara';
+WHERE name = 'hareem';
 
 -- 5. Sabhi data dekhna
 SELECT * FROM students;
