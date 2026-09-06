@@ -265,4 +265,4 @@ ORDER BY marks DESC;
 
 -- 8. Sirf wo students jinke marks 90 se zyada hain
 SELECT * FROM student
-WHERE marks > 90;
+WHERE marks > 80;
