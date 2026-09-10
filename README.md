@@ -225,7 +225,7 @@ VALUES
 INSERT INTO Students
 VALUES
 (2, 'Ahmed', 21, 'Software Engineering'),
-(3, 'Sara', 19, 'Computer Science'),
+(3, 'Sara', 20, 'Computer Science'),
 (4, 'Ayesha', 22, 'Information Technology');
 -- 1. Table banana
 CREATE TABLE students (
