@@ -267,4 +267,4 @@ ORDER BY marks DESC;
 SELECT * FROM student
 WHERE marks > 80;
 SELECT * FROM student
-WHERE marks >= 70;
+WHERE marks >= 90;
