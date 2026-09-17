@@ -265,6 +265,6 @@ ORDER BY marks DESC;
 
 -- 8. Sirf wo students jinke marks 90 se zyada hain
 SELECT * FROM student
-WHERE marks > 80;
+WHERE marks > 60;
 SELECT * FROM student
 WHERE marks >= 90;
