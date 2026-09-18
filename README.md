@@ -175,7 +175,7 @@ This repository serves as my personal SQL learning journey and practice collecti
 * Subqueries
 * Views
 * Indexes
-* Stored Procedures
+* Stored Procedure
 * Triggers
 * Transactions
 * Database Optimization
