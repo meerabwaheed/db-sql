@@ -20,7 +20,7 @@ This repository contains my SQL practice exercises while learning database desig
 
 ---
 
-## Project 1: `college_db`
+## Project 1; `college_db`
 
 This database demonstrates basic SQL operations.
 
