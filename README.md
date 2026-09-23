@@ -263,7 +263,7 @@ LIMIT 1;
 SELECT * FROM student
 ORDER BY marks DESC;
 
--- 8. Sirf wo students jinke marks 90 se zyada hain
+-- 8 Sirf wo students jinke marks 90 se zyada hain
 SELECT * FROM student
 WHERE marks > 60;
 SELECT * FROM student
