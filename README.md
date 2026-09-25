@@ -268,3 +268,65 @@ SELECT * FROM student
 WHERE marks > 60;
 SELECT * FROM student
 WHERE marks >= 90;
+-- CREATE DATABASE university_dbmsa;
+-- USE university_dbmsa;
+-- CREATE TABLE student (
+--    name VARCHAR (30),
+--    city VARCHAR(29),
+--    age INT,
+--    id INT PRIMARY KEY
+-- );
+-- INSERT INTO student VALUES('meerab','lahore',20,1);
+-- INSERT INTO student VALUES('prince','kasoor',20,2);
+-- INSERT INTO student VALUES('aahil','vehari',20,4);
+-- SELECT * FROM student;
+-- SELECT name, id FROM student;
+-- SELECT id,age FROM student;
+--  SELECT * FROM student ORDER BY id ASC;
+--   SELECT * FROM student ORDER BY name ASC;
+--     SELECT * FROM student ORDER BY city DESC;
+-- USE school_db;
+-- CREATE TABLE employee(
+-- first_name VARCHAR(30),
+-- last_name VARCHAR(20),
+-- id INT,
+-- hire_date INT,
+-- salary DECIMAL,
+-- email VARCHAR(1000),
+-- phone_number VARCHAR(2046237282615),
+-- employment_status enum('active','on leave','terminated')
+
+-- );
+-- CREATE DATABASE university_dbmsa;
+-- USE university_dbmsa;
+-- CREATE TABLE student (
+--    name VARCHAR (30),
+--    city VARCHAR(29),
+--    age INT,
+--    id INT PRIMARY KEY
+-- );
+-- INSERT INTO student VALUES('meerab','lahore',20,1);
+-- INSERT INTO student VALUES('prince','kasoor',20,2);
+-- INSERT INTO student VALUES('aahil','vehari',20,4);
+-- SELECT * FROM student;
+-- SELECT name, id FROM student;
+-- SELECT id,age FROM student;
+--  SELECT * FROM student ORDER BY id ASC;
+--   SELECT * FROM student ORDER BY name ASC;
+--     SELECT * FROM student ORDER BY city DESC;
+USE school_db;
+CREATE TABLE employee(
+first_name VARCHAR(30),
+last_name VARCHAR(20),
+id INT,
+hire_date INT,
+salary DECIMAL,
+email VARCHAR(1000),
+phone_number DOUBLE
+
+);
+
+INSERT INTO employee VALUES('meerab','waheed',12,22-2004,23000,'meerabwaheed516',0987654);
+SELECT * FROM employee;
+
+
