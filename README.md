@@ -292,7 +292,7 @@ WHERE marks >= 90;
 -- id INT,
 -- hire_date INT,
 -- salary DECIMAL,
--- email VARCHAR(1000),
+-- email VARCHAR(2000),
 -- phone_number VARCHAR(2046237282615),
 -- employment_status enum('active','on leave','terminated')
 
