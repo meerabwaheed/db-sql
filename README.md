@@ -378,7 +378,7 @@ SELECT * FROM employee;
 USE school_db;
 CREATE TABLE employee(
 first_name VARCHAR(30),
-last_name VARCHAR(20),
+last_name VARCHAR(40),
 id INT,
 hire_date INT,
 salary DECIMAL,
