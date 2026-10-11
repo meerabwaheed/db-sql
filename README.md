@@ -236,7 +236,7 @@ CREATE TABLE students (
 );
 
 -- 2. Data insert karna
-INSERT INTO students (name, age, marks) VALUES ('hareem', 20, 85);
+INSERT INTO students (name, age, marks) VALUES ('hareem', 23, 85);
 INSERT INTO students (name, age, marks) VALUES ('Sara', 21, 92);
 INSERT INTO students (name, age, marks) VALUES ('Umar', 19, 78);
 INSERT INTO students (name, age, marks) VALUES ('Meerab', 18, 95);
